@@ -1,0 +1,68 @@
+/* File: styles.css for styling index.html  */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --white: whitesmoke;
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+
+    --p-font: 16px;
+}
+
+.wrapper {
+    background-color: var(--stone-100);
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    background-color: var(--white);
+    max-width: 450px;
+    font-size: var(--p-font);
+    padding: 1em;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+}
+
+.headline {
+    font-family: "Young Serif";
+}
+
+.content {
+    font-size: .75em;
+}
+
+.prep {
+    background-color: var(--rose-50);
+    padding: 0 1em;
+}
+
+.card--title {
+    color:var(--brown)
+}
+
+.prep--list {
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
